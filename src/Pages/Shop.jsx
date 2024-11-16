@@ -4,12 +4,15 @@ import Popular from '../Components/Popular/Popular'
 import Offers from '../Components/Offers/Offers'
 import NewCollections from '../Components/NewCollections/NewCollections'
 import NewsLetter from '../Components/NewsLetter/NewsLetter'
-import RecipeOfDay from '../Components/RecipeofDay/RecipeofDay'
+import RecipeofDay from '../Components/RecipeofDay/RecipeofDay'
+import DishCard from '../Components/DishCard/DishCard'
 
 const Shop = () => {
   return (
     <div>
-      <RecipeOfDay/>
+      <RecipeofDay/>  
+
+      {/* <DishCard/> */}
       {/* <Hero/>
       <Popular/>
       <Offers/>
